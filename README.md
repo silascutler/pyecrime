@@ -5,9 +5,12 @@ API Documentation: https://ecrime.ch/api/docs/
 
 ## Installation
 
-To install this package, run:
+To install this package from source, run:
 
 ```
-pip install ecrime
+git clone https://github.com/silascutler/pyecrime.git
+cd pyecrime
+pip install .
 ```
+
 

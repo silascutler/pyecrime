@@ -53,7 +53,7 @@ def callAPI(method, url, json=None):
 @click.group(invoke_without_command=True)
 @click.pass_context
 def cli(ctx):
-    """A simple CLI tool to interact with the API."""
+    """A CLI tool to interact with the eCrime.ch."""
     if ctx.invoked_subcommand is None:
         click.echo(ctx.get_help())
 
