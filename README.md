@@ -13,4 +13,3 @@ cd pyecrime
 pip install .
 ```
 
-
