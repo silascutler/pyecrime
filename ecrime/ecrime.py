@@ -62,7 +62,7 @@ def cli(ctx):
 def login():
     """Test authentication"""
     API_HEADERS = {"X-API-Key" : API_KEY}
-    response = callAPI('GET', f"{API_URL}/login/")
+    _, response = callAPI('GET', f"{API_URL}/login/")
 
     click.echo(f"[+] Login: {response.get('message')}")
 
